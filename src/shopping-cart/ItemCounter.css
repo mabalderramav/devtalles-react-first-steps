@@ -1,0 +1,11 @@
+.item-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.item-text {
+    width: 160px;
+    font-size: 20px;
+}
