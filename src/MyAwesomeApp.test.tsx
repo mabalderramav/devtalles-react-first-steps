@@ -24,7 +24,6 @@ describe("MyAwesomeApp", () => {
         render(<MyAwesomeApp/>);
 
         // Act
-
         const h1 = screen.getByRole('heading', { level: 1 });
         const h3 = screen.getByRole('heading', { level: 3 });
 
@@ -36,5 +35,5 @@ describe("MyAwesomeApp", () => {
     test("Should match snapshot", () => {
         const { container } = render(<MyAwesomeApp/>);
         expect(container).toMatchSnapshot();
-    })
+    });
 });
