@@ -1,0 +1,38 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MyAwesomeApp > Should match snapshot 1`] = `
+<div>
+  <h1
+    class="text-xl font-bold"
+  >
+    Miguel Aldo
+  </h1>
+  <h3>
+    Balderrama Vaca
+  </h3>
+  <ul
+    style="background-color: green; border-radius: 10px;"
+  >
+    <li>
+      League of Legends
+    </li>
+    <li>
+      Valorant
+    </li>
+    <li>
+      Overwatch
+    </li>
+  </ul>
+  <h2>
+    Address
+  </h2>
+  <p
+    style="background-color: orange; border-radius: 10px; padding: 10px; margin: 10px;"
+  >
+    I live in 
+    Buenos Aires
+    , 
+    Argentina
+  </p>
+</div>
+`;

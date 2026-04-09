@@ -18,7 +18,7 @@ const myStyle: CSSProperties = {
 export function MyAwesomeApp() {
     return (
         <>
-            <h1>{name}</h1>
+            <h1 className="text-xl font-bold">{name}</h1>
             <h3>{lastname}</h3>
             <ul
                 style={{
